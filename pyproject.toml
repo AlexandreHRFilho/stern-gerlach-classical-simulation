@@ -1,0 +1,20 @@
+[project]
+name = "stern-gerlach-classico"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "AlexandreHRFilho", email = "alexandrehrfilho@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.3",
+]
+
+[project.scripts]
+stern-gerlach-classico = "stern_gerlach_classico:main"
+
+[build-system]
+requires = ["uv_build>=0.12.4,<0.13.0"]
+build-backend = "uv_build"
